@@ -8,8 +8,11 @@ namespace MontanoP5
 {
     public abstract class Sprocket
     {
-        public int NumOfTeeth { get; set; }
-        public int NumOfItems { get; set; }
+        private int numTeeth;
+        public int NumOfTeeth { get { return numTeeth; } set { numTeeth = value; Calc(); } }
+
+        private int numItems;
+        public int NumOfItems { get { return numItems; } set { numTeeth = value; Calc(); } }
 
         public decimal Price { get; set; }
         public int ItemID { get; private set; }

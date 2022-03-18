@@ -14,11 +14,12 @@ namespace MontanoP5
         public string CustomerName { get; set; }
         public decimal TotalPrice { get; set; }
 
-        /*public void Add(List<Sprocket> newOrder)
+        private void Calc()
         {
-            List<Sprocket> order = new Sprocket();
-            newOrder.Add(order)
-
-        }*/
+            foreach (var price in order)
+            {
+                TotalPrice +=
+            }
+        }
     }
 }

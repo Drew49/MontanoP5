@@ -6,22 +6,25 @@ using System.Threading.Tasks;
 
 namespace MontanoP5
 {
-    internal sealed class SteelSprocket : Sprocket
-    {   
-       
+    class SteelSprocket : Sprocket
+    {
+        decimal newPrice;
+    
         SteelSprocket()
         {
-            Calc();
+            
         }
 
         public SteelSprocket(int numOfTeeth, int numOfItems, int itemID) : base(numOfTeeth, numOfItems, itemID)
         {
-            Calc();
+   
+      
         }
+
 
         protected override void Calc()
         {
-            Price = (decimal)(NumOfTeeth * NumOfItems * .05);
+            Price = (decimal) (NumOfTeeth * NumOfItems * .05);
         }
 
         public override string ToString()
