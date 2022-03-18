@@ -19,6 +19,12 @@ namespace MontanoP5
         {
         }
 
+        protected Sprocket(int numOfTeeth, int numOfItems, int itemID)
+        {
+            NumOfTeeth = numOfTeeth;
+            NumOfItems = numOfItems;
+            ItemID = itemID;
+        }
 
         protected abstract void Calc();
 
