@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MontanoP5", "MontanoP5\MontanoP5.csproj", "{34437EEF-574D-4667-85D6-3D2D2A1251E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34437EEF-574D-4667-85D6-3D2D2A1251E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34437EEF-574D-4667-85D6-3D2D2A1251E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34437EEF-574D-4667-85D6-3D2D2A1251E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34437EEF-574D-4667-85D6-3D2D2A1251E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75A16D02-37F8-4086-8E1A-61551E7780C9}
+	EndGlobalSection
+EndGlobal
