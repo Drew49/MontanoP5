@@ -6,18 +6,17 @@ using System.Threading.Tasks;
 
 namespace MontanoP5
 {
-    class SteelSprocket : Sprocket
-    {
+    internal sealed class SteelSprocket : Sprocket
+    {   
+       
         SteelSprocket()
         {
-
+            Calc();
         }
 
-        SteelSprocket(int itemId, int numItems, int numOfTeeth)
+        public SteelSprocket(int numOfTeeth, int numOfItems, int itemID) : base(numOfTeeth, numOfItems, itemID)
         {
-            ItemID = itemId;
-            NumOfItems = numItems;
-            NumOfTeeth = numOfTeeth;
+            Calc();
         }
 
         protected override void Calc()

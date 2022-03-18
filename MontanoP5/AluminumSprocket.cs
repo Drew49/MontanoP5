@@ -10,14 +10,12 @@ namespace MontanoP5
     {
         AluminumSprocket()
         {
-
+            Calc();
         }
 
-        AluminumSprocket(int itemId, int numItems, int numOfTeeth)
+        public AluminumSprocket(int numOfTeeth, int numOfItems, int itemID) : base(numOfTeeth, numOfItems, itemID)
         {
-            ItemID = itemId;
-            NumOfItems = numItems;
-            NumOfTeeth = numOfTeeth;
+            Calc();
         }
 
         protected override void Calc()

@@ -10,14 +10,12 @@ namespace MontanoP5
     {
         PlasticSprocket()
         {
-
+            Calc();
         }
 
-        PlasticSprocket(int itemId, int numItems, int numOfTeeth)
+        public PlasticSprocket(int numOfTeeth, int numOfItems, int itemID) : base(numOfTeeth, numOfItems, itemID)
         {
-            ItemID = itemId;
-            NumOfItems = numItems;
-            NumOfTeeth = numOfTeeth;
+            Calc();
         }
 
         protected override void Calc()

@@ -11,12 +11,13 @@ namespace MontanoP5
         public int NumOfTeeth { get; set; }
         public int NumOfItems { get; set; }
 
-        public decimal Price { get; private set; }
+        public decimal Price { get; set; }
         public int ItemID { get; private set; }
       
 
         public Sprocket()
         {
+            Calc();
         }
 
         protected Sprocket(int numOfTeeth, int numOfItems, int itemID)
@@ -24,6 +25,7 @@ namespace MontanoP5
             NumOfTeeth = numOfTeeth;
             NumOfItems = numOfItems;
             ItemID = itemID;
+            Calc();
         }
 
         protected abstract void Calc();
