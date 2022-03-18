@@ -11,8 +11,8 @@ namespace MontanoP5
         public int NumOfTeeth { get; set; }
         public int NumOfItems { get; set; }
 
-        public decimal Price { get; set; }
-        public int ItemID { get; set; }
+        public decimal Price { get; private set; }
+        public int ItemID { get; private set; }
       
 
         public Sprocket()
