@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace MontanoP5
 {
-    class SteelSprocket : Sprocket
+    public class SteelSprocket : Sprocket //TODO: Made your class public. RJG
     {
         decimal newPrice;
     
-        SteelSprocket()
+        public SteelSprocket()//TODO: Made your constructor public. RJG
         {
-            
+
         }
 
         public SteelSprocket(int numOfTeeth, int numOfItems, int itemID) : base(numOfTeeth, numOfItems, itemID)
